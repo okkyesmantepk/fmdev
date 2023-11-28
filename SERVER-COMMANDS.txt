@@ -1,0 +1,49 @@
+Set rank in "USERS" table in database to "OWNER" to access the admin menu in game by doing /menu
+
+GENERAL COMMANDS FOR ALL :
+
+/cash -- (Displays wallet cash)
+/givecash [ID] [AMOUNT] -- (Gives cash to ID inputted)
+/emotes -- (Opens emote menu)
+/e  --  (Plays emote) example : ('/e dance2')
+/shuff -- (Changes car seat)
+/outfits -- (Displays all saved outfits)
+/outfitadd -- (Saves current outfit)
+/ooc [MESSAGE] -- (Sends out of character message to all in chat)
+/me [MESSAGE]
+/ooc_toggle
+/enableBuytuner -- (For tunershop employees)
+/cpr
+/atm
+/ui-r -- (Clears UI)
+/coords - prints coords to clipboard.
+/creationmenu - Business stash creator.
+
+--END OF GENERAL COMMANDS FOR ALL-- 
+
+
+Commands for POLICE :
+
+/jail [ID] [AMOUNT]  --  (Jails inputted ID) example : ('/jail 1 55')
+/bill [ID] [AMOUNT]  --  (Bills/Fines inputted ID)
+/judgeannounce [MESSAGE]  --  (DOJ judge server announcement) 
+/callsign [NUMBER]-- (Sets persons callsign in database) 
+/callsignveh [NUMBER] [NUMBER] [NUMBER] -- (Changes callsign on current police vehicle)
+/evidence [NUMBER] -- (Opens a evidence locker)
+/runplate -- Checks closest vehicles plate
+/dutyon -- (Signs player on duty)
+/dutyoff -- (Signs player off duty)
+/firepd -- (Displays FIRE menu)
+/hireems 
+/fireems
+
+--END OF Commands for POLICE -- 
+
+
+
+ADMIN COMMANDS :
+/clear - clears chat
+/disable - disables OOC chat
+/menu - opens dev / admin menu
+/createbiz [BUSSINESNAME] [BUSINESSNAME] - creates a new business in the databse 
+/time
